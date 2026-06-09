@@ -107,4 +107,6 @@ symbols_count_time:
 
 # Deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:susntones/reading
+  branch: gh-pages 
