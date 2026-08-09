@@ -7,4 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 .omc/
+.osc/
 .claude/

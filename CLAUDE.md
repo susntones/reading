@@ -1,0 +1,49 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## 项目性质
+
+Hexo 8 静态博客（读书笔记站），NexT 8 主题。**没有自定义代码**——仓库内容是 Markdown 文章 + YAML 配置。没有测试、没有 lint、没有构建脚本以外的工具链。
+
+## 常用命令
+
+```bash
+npm install                              # 安装依赖（含主题）
+npx hexo server                          # 本地预览 http://localhost:4000
+npm run build                            # = hexo generate，输出到 public/
+npm run clean                            # = hexo clean，清 db.json 和 public/
+npx hexo new reading-note "书名-读书笔记"  # 用 scaffolds/reading-note.md 建笔记
+npx hexo new "标题"                       # 普通文章（scaffolds/post.md）
+```
+
+改配置或换主题后若预览异常，先 `npm run clean` 再 server —— Hexo 的 `db.json` 缓存不会自动失效。
+
+本机访问 `registry.npmjs.org` 会 ECONNRESET，装新包需要走镜像：`npm install <pkg> --registry=https://registry.npmmirror.com`。**装完必须把 `package-lock.json` 里的 `registry.npmmirror.com` 全量替换回 `registry.npmjs.org`**，否则 GitHub Actions 的 CI 会依赖国内镜像。tarball 内容一致，integrity 哈希不变，替换是安全的。
+
+## 关键结构与约定
+
+**主题通过 npm 安装，不在 `themes/` 下。** `themes/` 只有 `.gitkeep`；`hexo-theme-next` 是 package.json 依赖。因此主题配置写在仓库根的 `_config.next.yml`（Hexo 的 alternate theme config 机制，文件名必须是 `_config.<theme>.yml`），**不要**去改 `node_modules/hexo-theme-next/` 里的任何文件——那些改动不会被提交，且 `npm install` 会覆盖。
+
+**NexT 的页面类型用 `type:`，不是 `layout:`。** `source/categories/index.md` 是 `type: "categories"`，tags 页是 `type: "tags"`，about 页是 `type: "about"`。这三个 md 的正文是空的，页面内容全靠主题按 `type` 生成——换主题时这里必然要改（如 Icarus 用的是 `layout:`），写错不会报错，只会渲染出空白正文。
+
+**头像**：`source/images/avatar.jpg`，由 `_config.next.yml` 的 `avatar.url: /images/avatar.jpg` 引用。侧栏受 `sidebar.display: post` 控制。注意 NexT 模板里的 class 是 `site-author-image`，grep `avatar` 找不到 img 标签。
+
+**读书笔记的自定义 front-matter。** `scaffolds/reading-note.md` 定义了 `book:`（title/author/publisher/year/isbn）、`rating`、`excerpt` 这些非 Hexo/NexT 标准字段。当前没有模板消费它们，它们只是结构化元数据。要渲染它们需要用 NexT 的 injector 机制或把主题 clone 进 `themes/next/`。
+
+**文章正文用 `<!-- more -->` 截断首页摘要**（见 `source/_posts/sapiens-reading-note.md`）。
+
+**分类体系是固定的五类**：文学 / 技术 / 哲学 / 历史 / 科普。新笔记的 `categories` 应从中选，不要新造。
+
+**`post_asset_folder: true`**：每篇文章可以有同名资源目录存放图片，用相对路径引用。
+
+## 部署
+
+存在两条路径，**以 GitHub Actions 为准**：
+
+- `.github/workflows/pages.yml` — push 到 `main` 触发，`npm install && npm run build`，用 `upload-pages-artifact` + `deploy-pages` 部署 `public/`。日常只需要提交推送 main。
+- `_config.yml` 的 `deploy:` 段（`hexo-deployer-git` → `gh-pages` 分支）是遗留的手动路径，`npm run deploy` 才会走。两者同时使用会互相覆盖。
+
+站点是 **project site**，线上地址 https://susntones.github.io/reading/ 。`_config.yml` 未显式设置 `root`，但 Hexo 会从 `url` 的路径部分推导出 `root: /reading/`，生成的资源和文章链接都带该前缀（已实测）。**因此本地预览要访问 http://localhost:4000/reading/ ，不是 http://localhost:4000/** （后者会 302）。改动 `url` 时注意这个连带影响。
+
+`public/`、`db.json`、`node_modules/` 均已 gitignore，不要提交产物。
