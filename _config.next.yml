@@ -13,6 +13,7 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
+  书单: /booklists/fagu-jinjin/ || fa fa-book
   about: /about/ || fa fa-user
 
 # Sidebar
