@@ -1,0 +1,40 @@
+// {% reward %} 文内打赏块，外观对齐 NexT 内置 .reward-container
+.reward-inline {
+  margin: 2em 0;
+  text-align: center;
+
+  summary {
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .reward-inline-btn {
+    button($sidebar-highlight);
+    border: 2px solid $sidebar-highlight;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  .reward-inline-qr {
+    padding-top: 20px;
+
+    div {
+      display: inline-block;
+
+      span {
+        display: block;
+      }
+    }
+
+    img {
+      display: inline-block;
+      margin: .8em 2em 0;
+      max-width: 100%;
+      width: $post-reward-img-width;
+    }
+  }
+}

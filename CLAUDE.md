@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目性质
 
-Hexo 8 静态博客（读书笔记站），NexT 8 主题。**没有自定义代码**——仓库内容是 Markdown 文章 + YAML 配置。没有测试、没有 lint、没有构建脚本以外的工具链。
+Hexo 8 静态博客（读书笔记站），NexT 8 主题。仓库内容主要是 Markdown 文章 + YAML 配置，自定义代码只有 `scripts/` 下的 Hexo 插件和 `source/_data/` 下的主题定制文件。没有测试、没有 lint、没有构建脚本以外的工具链。
 
 ## 常用命令
 
@@ -30,6 +30,8 @@ npx hexo new "标题"                       # 普通文章（scaffolds/post.md�
 **头像**：`source/images/avatar.jpg`，由 `_config.next.yml` 的 `avatar.url: /images/avatar.jpg` 引用。侧栏受 `sidebar.display: post` 控制。注意 NexT 模板里的 class 是 `site-author-image`，grep `avatar` 找不到 img 标签。
 
 **读书笔记的自定义 front-matter。** `scaffolds/reading-note.md` 定义了 `book:`（title/author/publisher/year/isbn）、`rating`、`excerpt` 这些非 Hexo/NexT 标准字段。当前没有模板消费它们，它们只是结构化元数据。要渲染它们需要用 NexT 的 injector 机制或把主题 clone 进 `themes/next/`。
+
+**打赏**：`_config.next.yml` 的 `reward_settings`/`reward` 控制文章底部的内置打赏块（位置写死在主题模板里，提示语来自 `source/_data/languages.yml` 覆盖的语言包，`reward_settings.comment` 只被下面的自定义标签使用）。需要在正文中间放打赏时写 `{% reward %}`（`scripts/reward.js`，样式在 `source/_data/styles.styl`，经 `custom_file_path.style` 引入）。该标签用 `<details>` 展开，因为 NexT 的 JS 只绑定页面上第一个 `.reward-container button`——不要把它改成 button。「法古矜今」书单的笔记约定在 `## 三、原文与译文` 前放一个 `{% reward %}`。
 
 **文章正文用 `<!-- more -->` 截断首页摘要**（见 `source/_posts/sapiens-reading-note.md`）。
 
