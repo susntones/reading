@@ -135,6 +135,10 @@ reward:
   wechatpay: /images/sk.jpg
 
 # Views / Visitors (busuanzi)
+# 不蒜子官方接口不稳定（2026-10 实测超时/502），换用兼容其元素 ID 的 Vercount
+vendors:
+  busuanzi: https://events.vercount.one/js
+
 busuanzi_count:
   enable: true
   total_visitors: true

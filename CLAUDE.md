@@ -33,6 +33,8 @@ npx hexo new "标题"                       # 普通文章（scaffolds/post.md�
 
 **打赏**：`_config.next.yml` 的 `reward_settings`/`reward` 控制文章底部的内置打赏块（位置写死在主题模板里，提示语来自 `source/_data/languages.yml` 覆盖的语言包，`reward_settings.comment` 只被下面的自定义标签使用）。需要在正文中间放打赏时写 `{% reward %}`（`scripts/reward.js`，样式在 `source/_data/styles.styl`，经 `custom_file_path.style` 引入）。该标签用 `<details>` 展开，因为 NexT 的 JS 只绑定页面上第一个 `.reward-container button`——不要把它改成 button。「法古矜今」书单的笔记约定在 `## 三、原文与译文` 前放一个 `{% reward %}`。
 
+**阅读量**：`busuanzi_count` 负责渲染占位元素，计数脚本由 `vendors.busuanzi` 换成了 Vercount（events.vercount.one，兼容不蒜子元素 ID）。不蒜子官方接口 2026-10 实测超时/502，数字取不到时 NexT 会把整块隐藏，表现为"看不到阅读量"。
+
 **文章正文用 `<!-- more -->` 截断首页摘要**（见 `source/_posts/sapiens-reading-note.md`）。
 
 **分类体系是固定的五类**：文学 / 技术 / 哲学 / 历史 / 科普。新笔记的 `categories` 应从中选，不要新造。
