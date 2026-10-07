@@ -13,6 +13,10 @@ book:
   isbn:
 rating: 
 excerpt:
+# SEO：搜索结果摘要（80~150 字，写书名 + 讲了什么 + 有什么附加内容）；关键词写读者会搜的词，如「书名原文及译文」
+seo_description:
+keywords:
+  -
 ---
 
 ## 书籍简介

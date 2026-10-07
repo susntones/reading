@@ -10,6 +10,8 @@ keywords:
   - 读书笔记
   - 阅读
   - 书评
+  - 国学经典
+  - 原文译文
 author: liuchengxiao
 language: zh-CN
 timezone: Asia/Shanghai
@@ -19,7 +21,7 @@ url: https://susntones.github.io/reading
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true
+  trailing_index: false
   trailing_html: true
 
 # Directory
@@ -110,3 +112,13 @@ deploy:
   type: git
   repo: git@github.com:susntones/reading
   branch: gh-pages 
+
+# Sitemap（hexo-generator-sitemap）：生成 sitemap.xml / sitemap.txt，供搜索引擎站长平台提交
+# 不想收录的页面在 front-matter 写 sitemap: false
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: true
+  categories: true

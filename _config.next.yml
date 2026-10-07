@@ -150,4 +150,16 @@ busuanzi_count:
 
 # Custom files
 custom_file_path:
+  head: source/_data/head.njk
   style: source/_data/styles.styl
+
+# SEO：主题自带的 open_graph 只能全站统一传参，关掉后改由 source/_data/head.njk
+# 按页面输出（支持 front-matter 的 seo_description / keywords，并附 JSON-LD）
+open_graph:
+  enable: false
+
+# 首页 <title> 带上副标题
+index_with_subtitle: true
+
+# Google Search Console 站点验证（网址前缀资源 https://susntones.github.io/reading/）
+google_site_verification: dkTdo-vuMxnTxE7tVlVOyACY1whA30poTTYwk1taxNA

@@ -1,0 +1,66 @@
+{#
+  SEO head（经 _config.next.yml 的 custom_file_path.head 注入，主题自带 open_graph 已关闭）
+  front-matter 可选字段：
+    seo_description: 搜索结果摘要，80~150 字为宜；缺省依次回退到 description / excerpt / 正文
+    keywords:        关键词列表；缺省用标签（跳过「书单:」前缀的标签），再缺省用站点 keywords
+    cover:           分享卡片图；缺省用头像
+#}
+{#- Hexo 的 data 处理器会在无 helper 的上下文里预渲染 _data/*.njk，此时跳过 #}
+{%- if open_graph %}
+{%- set seo_image = full_url_for(page.cover or theme.avatar.url) %}
+{{ open_graph({ url: page.permalink, description: page.seo_description, image: seo_image, twitter_card: 'summary' }) }}
+
+{%- set seo_keywords = [] %}
+{%- if page.keywords %}
+  {%- set seo_keywords = page.keywords if page.keywords is not string else [page.keywords] %}
+{%- elif page.tags and page.tags.length %}
+  {%- for tag in page.tags.toArray() %}
+    {%- if not tag.name.startsWith('书单:') %}{% set _ = seo_keywords.push(tag.name) %}{% endif %}
+  {%- endfor %}
+{%- else %}
+  {%- set seo_keywords = config.keywords or [] %}
+{%- endif %}
+{%- if seo_keywords.length %}
+<meta name="keywords" content="{{ seo_keywords | join(',') | escape }}">
+{%- endif %}
+
+{%- if is_post() %}
+{%- set ld_book = undefined %}
+{%- if page.book and page.book.title %}
+  {%- set ld_book = {
+    '@type': 'Book',
+    'name': page.book.title,
+    'author': { '@type': 'Person', 'name': page.book.author },
+    'isbn': (page.book.isbn | string) if page.book.isbn else undefined
+  } %}
+{%- endif %}
+{%- set ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  'headline': page.title,
+  'description': page.seo_description or page.description or page.excerpt or config.description,
+  'datePublished': page.date.toISOString(),
+  'dateModified': (page.updated or page.date).toISOString(),
+  'inLanguage': config.language,
+  'mainEntityOfPage': { '@type': 'WebPage', '@id': page.permalink },
+  'url': page.permalink,
+  'image': seo_image,
+  'keywords': seo_keywords | join(','),
+  'author': { '@type': 'Person', 'name': config.author, 'url': config.url + '/' },
+  'publisher': { '@type': 'Person', 'name': config.author },
+  'isPartOf': { '@type': 'WebSite', 'name': config.title, 'url': config.url + '/' },
+  'about': ld_book
+} %}
+<script type="application/ld+json">{{ ld | dump | safe }}</script>
+{%- elif is_home() and page.current == 1 %}
+<script type="application/ld+json">{{ {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  'name': config.title,
+  'alternateName': config.subtitle,
+  'description': config.description,
+  'url': config.url + '/',
+  'inLanguage': config.language
+} | dump | safe }}</script>
+{%- endif %}
+{%- endif %}

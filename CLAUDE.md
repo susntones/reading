@@ -35,6 +35,8 @@ npx hexo new "标题"                       # 普通文章（scaffolds/post.md�
 
 **阅读量**：`busuanzi_count` 负责渲染占位元素，计数脚本由 `vendors.busuanzi` 换成了 Vercount（events.vercount.one，兼容不蒜子元素 ID）。不蒜子官方接口 2026-10 实测超时/502，数字取不到时 NexT 会把整块隐藏，表现为"看不到阅读量"。
 
+**SEO**：主题的 `open_graph` 已关闭，改由 `source/_data/head.njk`（`custom_file_path.head` 注入）按页面输出 description / keywords / OG / JSON-LD（文章是 BlogPosting + `about: Book`，取自 `book:` 字段）。每篇用 front-matter 的 `seo_description`（80~150 字）和 `keywords` 控制；**不要用 `description` 字段**——NexT 会把它显示在标题下并替换首页摘要。`updated:` 显式写上，否则 `updated_option: mtime` 在 CI 里每次部署都会变。该模板开头的 `{% if open_graph %}` 守卫不能删：Hexo 的 data 处理器会在没有 helper 的上下文里预渲染 `_data/*.njk`，删了会报 `Unable to call full_url_for`。sitemap 由 `hexo-generator-sitemap` 生成（`/reading/sitemap.xml`），`pretty_urls.trailing_index: false` 是为了让 sitemap/og:url 与 canonical 一致。
+
 **文章正文用 `<!-- more -->` 截断首页摘要**（见 `source/_posts/sapiens-reading-note.md`）。
 
 **分类体系是固定的五类**：文学 / 技术 / 哲学 / 历史 / 科普。新笔记的 `categories` 应从中选，不要新造。
