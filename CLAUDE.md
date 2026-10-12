@@ -39,6 +39,10 @@ npx hexo new "标题"                       # 普通文章（scaffolds/post.md�
 
 **「法古矜今」每日一卷**：第二期起按卷/篇拆书，每天一篇。计划与进度表在 `source/booklists/fagu-jinjin/plan/index.md`（目录形式是为了得到 `/plan/` 而非 `plan.html`），笔记放 `source/_posts/法古矜今/<书名>/<书名>-<单元>-读书笔记.md`，用 `scaffolds/daily-note.md`（`npx hexo new daily-note ...`）。三段固定：金字塔总结 → 分篇详解与古今故事 → 原文与译文；原文取维基文库 `action=raw` 再繁转简。写完要同步改计划表那一行和书单首页的进度。
 
+**「英文演讲」每日一篇**：计划表 `source/booklists/english-speeches/plan/index.md`，笔记放 `source/_posts/英文演讲/<两位序号>-<讲者>-<演讲短名>.md`（分类用「文学」）。四段固定：演讲速览 → 逐句精讲（原文·译文·语法·听力）→ 重点表达清单 → 听力练习建议。大部分演讲有版权，只节选 15~25 句并附官方链接，不要整篇搬运。自动化在 `.claude/skills/pojian-daily`（launchd `com.susntones.pojian-daily` 每天 07:00，会等 05:00 的 fagu-daily 跑完），讲解音频上传喜马拉雅「破茧发声」专辑。
+
+**书单**：`source/booklists/index.md` 是书单总览（菜单「书单」指向 `/booklists/`），各书单在 `source/booklists/<slug>/index.md`：`fagu-jinjin`（法古矜今）、`english-speeches`（英文演讲）。新增书单时要在总览页加一行。
+
 **文章正文用 `<!-- more -->` 截断首页摘要**（见 `source/_posts/sapiens-reading-note.md`）。
 
 **分类体系是固定的五类**：文学 / 技术 / 哲学 / 历史 / 科普。新笔记的 `categories` 应从中选，不要新造。
