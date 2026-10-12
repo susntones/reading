@@ -1,7 +1,7 @@
 ---
 title: 英文演讲 · 每日一篇精听计划
 date: 2026-10-12 23:00:00
-updated: 2026-10-12 23:17:26
+updated: 2026-10-13 07:01:05
 comments: false
 seo_description: 「英文演讲」书单的每日精听计划：乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇英文演讲，每天一篇，节选原文逐句翻译并做语法解析，配中英双语讲解音频。
 keywords:
@@ -38,7 +38,7 @@ keywords:
 | 第几天 | 日期 | 演讲 | 讲者 | 主题 | 笔记 |
 |---|---|---|---|---|---|
 | Day 1 | 10/12 | Stanford Commencement Address (2005) | Steve Jobs | 三个故事：连点成线、爱与失去、死亡 | {% post_link 英文演讲/01-乔布斯-斯坦福毕业演讲 '✅ 笔记' %} |
-| Day 2 | 10/13 | Harvard Commencement (2008) | J.K. Rowling | 失败的好处与想象力的重要 | 📚 |
+| Day 2 | 10/13 | Harvard Commencement (2008) | J.K. Rowling | 失败的好处与想象力的重要 |{% post_link 英文演讲/02-罗琳-哈佛毕业演讲 '✅ 笔记' %} |
 | Day 3 | 10/14 | HeForShe Speech at the UN (2014) | Emma Watson | 性别平等是每个人的事 | 📚 |
 | Day 4 | 10/15 | Make Your Bed (2014) | William McRaven | 从整理床铺开始的十条人生经验 | 📚 |
 | Day 5 | 10/16 | Inside the Mind of a Master Procrastinator (2016) | Tim Urban | 拖延症患者的大脑 | 📚 |
