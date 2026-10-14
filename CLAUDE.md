@@ -53,7 +53,7 @@ npx hexo new "标题"                       # 普通文章（scaffolds/post.md�
 
 存在两条路径，**以 GitHub Actions 为准**：
 
-- `.github/workflows/pages.yml` — push 到 `main` 触发，`npm install && npm run build`，用 `upload-pages-artifact` + `deploy-pages` 部署 `public/`。日常只需要提交推送 main。
+- `.github/workflows/pages.yml` — push 到 `main` 触发，`npm install && npm run build`，用 `upload-pages-artifact` + `deploy-pages` 部署 `public/`。日常只需要提交推送 main。build job 设了 `TZ: Asia/Shanghai`——Hexo 永久链接的日期按进程时区算（`_config.yml` 的 `timezone` 管不到），CI 默认 UTC 会让凌晨发布的文章 URL 早一天，与本地不一致。
 - `_config.yml` 的 `deploy:` 段（`hexo-deployer-git` → `gh-pages` 分支）是遗留的手动路径，`npm run deploy` 才会走。两者同时使用会互相覆盖。
 
 站点是 **project site**，线上地址 https://susntones.github.io/reading/ 。`_config.yml` 未显式设置 `root`，但 Hexo 会从 `url` 的路径部分推导出 `root: /reading/`，生成的资源和文章链接都带该前缀（已实测）。**因此本地预览要访问 http://localhost:4000/reading/ ，不是 http://localhost:4000/** （后者会 302）。改动 `url` 时注意这个连带影响。

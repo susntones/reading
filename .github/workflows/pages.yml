@@ -8,6 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # 永久链接的 :year/:month/:day 按进程时区计算，与本地保持一致，
+      # 否则凌晨发布的文章在线上会落到前一天的路径
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v4
         with:
