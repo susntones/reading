@@ -1,7 +1,7 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-10-14 07:36:11
+updated: 2026-10-15 07:08:38
 comments: false
 seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
 keywords:
@@ -28,7 +28,7 @@ keywords:
 | 1 | Stanford Commencement Address（"Stay Hungry, Stay Foolish"） | Steve Jobs | 2005 | 约 15 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/01-乔布斯-斯坦福毕业演讲 '笔记 + 讲解音频' %} |
 | 2 | Harvard Commencement（"The Fringe Benefits of Failure"） | J.K. Rowling | 2008 | 约 20 分钟 | 英音 | ✅ 已读 | {% post_link 英文演讲/02-罗琳-哈佛毕业演讲 '笔记 + 讲解音频' %} |
 | 3 | HeForShe Speech at the UN | Emma Watson | 2014 | 约 13 分钟 | 英音 | ✅ 已读 | {% post_link 英文演讲/03-沃特森-联合国HeForShe演讲 '笔记 + 讲解音频' %} |
-| 4 | "Make Your Bed"（UT Austin Commencement） | William McRaven | 2014 | 约 20 分钟 | 美音 | 📚 待读 | — |
+| 4 | "Make Your Bed"（UT Austin Commencement） | William McRaven | 2014 | 约 20 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/04-麦克雷文-从整理床铺开始 '笔记 + 讲解音频' %} |
 | 5 | Inside the Mind of a Master Procrastinator（TED） | Tim Urban | 2016 | 约 14 分钟 | 美音 | 📚 待读 | — |
 
 ### 中级：正常语速，有一定信息密度
@@ -80,7 +80,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 3 / 16 篇（最新：{% post_link 英文演讲/03-沃特森-联合国HeForShe演讲 '艾玛·沃特森 · 联合国 HeForShe 演讲' %}）
+- 已完成 4 / 16 篇（最新：{% post_link 英文演讲/04-麦克雷文-从整理床铺开始 '威廉·麦克雷文 · 从整理床铺开始' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
