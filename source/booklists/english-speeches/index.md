@@ -1,7 +1,7 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-10-15 07:08:38
+updated: 2026-10-19 10:56:37
 comments: false
 seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
 keywords:
@@ -29,7 +29,7 @@ keywords:
 | 2 | Harvard Commencement（"The Fringe Benefits of Failure"） | J.K. Rowling | 2008 | 约 20 分钟 | 英音 | ✅ 已读 | {% post_link 英文演讲/02-罗琳-哈佛毕业演讲 '笔记 + 讲解音频' %} |
 | 3 | HeForShe Speech at the UN | Emma Watson | 2014 | 约 13 分钟 | 英音 | ✅ 已读 | {% post_link 英文演讲/03-沃特森-联合国HeForShe演讲 '笔记 + 讲解音频' %} |
 | 4 | "Make Your Bed"（UT Austin Commencement） | William McRaven | 2014 | 约 20 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/04-麦克雷文-从整理床铺开始 '笔记 + 讲解音频' %} |
-| 5 | Inside the Mind of a Master Procrastinator（TED） | Tim Urban | 2016 | 约 14 分钟 | 美音 | 📚 待读 | — |
+| 5 | Inside the Mind of a Master Procrastinator（TED） | Tim Urban | 2016 | 约 14 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/05-厄本-拖延症患者的大脑 '笔记 + 讲解音频' %} |
 
 ### 中级：正常语速，有一定信息密度
 
@@ -80,7 +80,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 4 / 16 篇（最新：{% post_link 英文演讲/04-麦克雷文-从整理床铺开始 '威廉·麦克雷文 · 从整理床铺开始' %}）
+- 已完成 5 / 16 篇（最新：{% post_link 英文演讲/05-厄本-拖延症患者的大脑 '蒂姆·厄本 · 拖延症患者的大脑' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
