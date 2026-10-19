@@ -1,7 +1,7 @@
 ---
 title: 英文演讲 · 每日一篇精听计划
 date: 2026-10-12 23:00:00
-updated: 2026-10-19 10:56:37
+updated: 2026-10-20 07:04:47
 comments: false
 seo_description: 「英文演讲」书单的每日精听计划：乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇英文演讲，每天一篇，节选原文逐句翻译并做语法解析，配中英双语讲解音频。
 keywords:
@@ -42,7 +42,7 @@ keywords:
 | Day 3 | 10/14 | HeForShe Speech at the UN (2014) | Emma Watson | 性别平等是每个人的事 | {% post_link 英文演讲/03-沃特森-联合国HeForShe演讲 '✅ 笔记' %} |
 | Day 4 | 10/15 | Make Your Bed (2014) | William McRaven | 从整理床铺开始的十条人生经验 | {% post_link 英文演讲/04-麦克雷文-从整理床铺开始 '✅ 笔记' %} |
 | Day 5 | 10/16 | Inside the Mind of a Master Procrastinator (2016) | Tim Urban | 拖延症患者的大脑 | {% post_link 英文演讲/05-厄本-拖延症患者的大脑 '✅ 笔记' %} |
-| Day 6 | 10/17 | Do Schools Kill Creativity? (2006) | Ken Robinson | 学校是否扼杀了创造力 | 📚 |
+| Day 6 | 10/17 | Do Schools Kill Creativity? (2006) | Ken Robinson | 学校是否扼杀了创造力 | {% post_link 英文演讲/06-罗宾逊-学校是否扼杀创造力 '✅ 笔记' %} |
 | Day 7 | 10/18 | How Great Leaders Inspire Action (2009) | Simon Sinek | 黄金圈：从「为什么」出发 | 📚 |
 | Day 8 | 10/19 | Your Body Language May Shape Who You Are (2012) | Amy Cuddy | 肢体语言与自我认知 | 📚 |
 | Day 9 | 10/20 | The Power of Vulnerability (2010) | Brené Brown | 脆弱的力量 | 📚 |
