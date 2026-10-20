@@ -1,7 +1,7 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-10-20 07:04:52
+updated: 2026-10-21 07:04:33
 comments: false
 seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
 keywords:
@@ -36,7 +36,7 @@ keywords:
 | # | 演讲 | 讲者 | 年份 | 时长 | 口音 | 状态 | 笔记 |
 |---|---|---|---|---|---|---|---|
 | 6 | Do Schools Kill Creativity?（TED） | Ken Robinson | 2006 | 约 19 分钟 | 英音 | ✅ 已读 | {% post_link 英文演讲/06-罗宾逊-学校是否扼杀创造力 '✅ 笔记' %} |
-| 7 | How Great Leaders Inspire Action（TED） | Simon Sinek | 2009 | 约 18 分钟 | 美音 | 📚 待读 | — |
+| 7 | How Great Leaders Inspire Action（TED） | Simon Sinek | 2009 | 约 18 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/07-西内克-伟大的领袖如何激励行动 '✅ 笔记' %} |
 | 8 | Your Body Language May Shape Who You Are（TED） | Amy Cuddy | 2012 | 约 21 分钟 | 美音 | 📚 待读 | — |
 | 9 | The Power of Vulnerability（TED） | Brené Brown | 2010 | 约 20 分钟 | 美音 | 📚 待读 | — |
 | 10 | This Is Water（Kenyon College Commencement） | David Foster Wallace | 2005 | 约 22 分钟 | 美音 | 📚 待读 | — |
@@ -80,7 +80,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 6 / 16 篇（最新：{% post_link 英文演讲/06-罗宾逊-学校是否扼杀创造力 '肯·罗宾逊 · 学校是否扼杀了创造力' %}）
+- 已完成 7 / 16 篇（最新：{% post_link 英文演讲/07-西内克-伟大的领袖如何激励行动 '西蒙·西内克 · 伟大的领袖如何激励行动' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
