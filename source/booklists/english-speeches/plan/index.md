@@ -1,7 +1,7 @@
 ---
 title: 英文演讲 · 每日一篇精听计划
 date: 2026-10-12 23:00:00
-updated: 2026-10-22 07:05:15
+updated: 2026-10-23 07:04:32
 comments: false
 seo_description: 「英文演讲」书单的每日精听计划：乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇英文演讲，每天一篇，节选原文逐句翻译并做语法解析，配中英双语讲解音频。
 keywords:
@@ -45,7 +45,7 @@ keywords:
 | Day 6 | 10/17 | Do Schools Kill Creativity? (2006) | Ken Robinson | 学校是否扼杀了创造力 | {% post_link 英文演讲/06-罗宾逊-学校是否扼杀创造力 '✅ 笔记' %} |
 | Day 7 | 10/18 | How Great Leaders Inspire Action (2009) | Simon Sinek | 黄金圈：从「为什么」出发 |{% post_link 英文演讲/07-西内克-伟大的领袖如何激励行动 '✅ 笔记' %} |
 | Day 8 | 10/19 | Your Body Language May Shape Who You Are (2012) | Amy Cuddy | 肢体语言与自我认知 | {% post_link 英文演讲/08-柯蒂-肢体语言塑造你自己 '✅ 笔记' %} |
-| Day 9 | 10/20 | The Power of Vulnerability (2010) | Brené Brown | 脆弱的力量 | 📚 |
+| Day 9 | 10/20 | The Power of Vulnerability (2010) | Brené Brown | 脆弱的力量 | {% post_link 英文演讲/09-布朗-脆弱的力量 '✅ 笔记' %} |
 | Day 10 | 10/21 | This Is Water (2005) | David Foster Wallace | 选择把注意力放在哪里 | 📚 |
 | Day 11 | 10/22 | Harvard Commencement (2017) | Mark Zuckerberg | 让每个人都有使命感 | 📚 |
 | Day 12 | 10/23 | I Have a Dream (1963) | Martin Luther King Jr. | 我有一个梦想 | 📚 |
