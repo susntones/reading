@@ -1,7 +1,7 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-10-23 07:04:32
+updated: 2026-10-26 15:20:00
 comments: false
 seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
 keywords:
@@ -39,7 +39,7 @@ keywords:
 | 7 | How Great Leaders Inspire Action（TED） | Simon Sinek | 2009 | 约 18 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/07-西内克-伟大的领袖如何激励行动 '✅ 笔记' %} |
 | 8 | Your Body Language May Shape Who You Are（TED） | Amy Cuddy | 2012 | 约 21 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/08-柯蒂-肢体语言塑造你自己 '✅ 笔记' %} |
 | 9 | The Power of Vulnerability（TED） | Brené Brown | 2010 | 约 20 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/09-布朗-脆弱的力量 '✅ 笔记' %} |
-| 10 | This Is Water（Kenyon College Commencement） | David Foster Wallace | 2005 | 约 22 分钟 | 美音 | 📚 待读 | — |
+| 10 | This Is Water（Kenyon College Commencement） | David Foster Wallace | 2005 | 约 22 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/10-华莱士-这就是水 '笔记 + 讲解音频' %} |
 | 11 | Harvard Commencement | Mark Zuckerberg | 2017 | 约 30 分钟 | 美音 | 📚 待读 | — |
 
 ### 进阶级：修辞、历史、正式语体
@@ -80,7 +80,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 9 / 16 篇（最新：{% post_link 英文演讲/09-布朗-脆弱的力量 '布琳·布朗 · 脆弱的力量' %}）
+- 已完成 10 / 16 篇（最新：{% post_link 英文演讲/10-华莱士-这就是水 '大卫·福斯特·华莱士 · 这就是水' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
