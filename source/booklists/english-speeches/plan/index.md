@@ -1,7 +1,7 @@
 ---
 title: 英文演讲 · 每日一篇精听计划
 date: 2026-10-12 23:00:00
-updated: 2026-10-28 07:12:00
+updated: 2026-10-29 10:44:00
 comments: false
 seo_description: 「英文演讲」书单的每日精听计划：乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇英文演讲，每天一篇，节选原文逐句翻译并做语法解析，配中英双语讲解音频。
 keywords:
@@ -49,7 +49,7 @@ keywords:
 | Day 10 | 10/21 | This Is Water (2005) | David Foster Wallace | 选择把注意力放在哪里 | {% post_link 英文演讲/10-华莱士-这就是水 '✅ 笔记' %} |
 | Day 11 | 10/22 | Harvard Commencement (2017) | Mark Zuckerberg | 让每个人都有使命感 | {% post_link 英文演讲/11-扎克伯格-哈佛毕业演讲 '✅ 笔记' %} |
 | Day 12 | 10/23 | I Have a Dream (1963) | Martin Luther King Jr. | 我有一个梦想 | {% post_link 英文演讲/12-金-我有一个梦想 '✅ 笔记' %} |
-| Day 13 | 10/24 | Inaugural Address (1961) | John F. Kennedy | 不要问国家能为你做什么 | 📚 |
+| Day 13 | 10/24 | Inaugural Address (1961) | John F. Kennedy | 不要问国家能为你做什么 | {% post_link 英文演讲/13-肯尼迪-就职演说 '✅ 笔记' %} |
 | Day 14 | 10/25 | We Shall Fight on the Beaches (1940) | Winston Churchill | 绝不投降 | 📚 |
 | Day 15 | 10/26 | 2004 DNC Keynote Address (2004) | Barack Obama | 没有自由派美国和保守派美国 | 📚 |
 | Day 16 | 10/27 | Nobel Peace Prize Lecture (2014) | Malala Yousafzai | 为失学的女孩发声 | 📚 |
