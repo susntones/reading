@@ -1,7 +1,7 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-11-02 09:56:00
+updated: 2026-11-03 07:12:00
 comments: false
 seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
 keywords:
@@ -50,7 +50,7 @@ keywords:
 | 13 | Inaugural Address | John F. Kennedy | 1961 | 约 14 分钟 | 波士顿口音 | ✅ 已读 | {% post_link 英文演讲/13-肯尼迪-就职演说 '✅ 笔记' %} |
 | 14 | We Shall Fight on the Beaches | Winston Churchill | 1940 | 约 12 分钟 | 老派英音 | ✅ 已读 | {% post_link 英文演讲/14-丘吉尔-我们将在海滩上战斗 '笔记 + 讲解音频' %} |
 | 15 | 2004 Democratic National Convention Keynote | Barack Obama | 2004 | 约 17 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/15-奥巴马-2004年民主党大会演讲 '✅ 笔记' %} |
-| 16 | Nobel Peace Prize Lecture | Malala Yousafzai | 2014 | 约 25 分钟 | 南亚口音英语 | 📚 待读 | — |
+| 16 | Nobel Peace Prize Lecture | Malala Yousafzai | 2014 | 约 25 分钟 | 南亚口音英语 | ✅ 已读 | {% post_link 英文演讲/16-马拉拉-诺贝尔和平奖演讲 '✅ 笔记' %} |
 
 ## 每日精听计划
 
@@ -80,7 +80,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 15 / 16 篇（最新：{% post_link 英文演讲/15-奥巴马-2004年民主党大会演讲 '奥巴马 · 2004 年民主党大会演讲' %}）
+- 已完成 16 / 16 篇（最新：{% post_link 英文演讲/16-马拉拉-诺贝尔和平奖演讲 '马拉拉 · 诺贝尔和平奖演讲' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
