@@ -1,9 +1,9 @@
 ---
 title: 书单 · 英文演讲
 date: 2026-10-12 12:00:00
-updated: 2026-11-03 07:12:00
+updated: 2026-11-09 15:22:00
 comments: false
-seo_description: 「英文演讲」听力书单：按入门、中级、进阶三级收录乔布斯斯坦福演讲、J.K. 罗琳哈佛演讲、TED 经典演讲、马丁·路德·金《我有一个梦想》等十六篇适合练英语听力的演讲，附口音、时长与精听跟读方法。
+seo_description: 「英文演讲」听力书单：首轮十六篇经典演讲已完成，第二轮加入莱德基、汤姆·汉克斯、汉克·格林、梅琳达·弗伦奇·盖茨与伊萨·雷五篇毕业演讲。附官方文字稿、逐句精讲计划与精听跟读方法。
 keywords:
   - 英文演讲
   - 英语听力练习
@@ -17,7 +17,7 @@ keywords:
 
 ## 书单简介
 
-把经典英文演讲当作「有声书」来读：每篇都有官方视频和逐字稿，内容本身值得一听，语言又足够标准。按难度分三级，从语速慢、用词简单的毕业演讲，到修辞密集、录音年代久远的历史演讲，逐级往上走。
+把经典英文演讲当作「有声书」来读：优先选择能找到官方文字稿和演讲视频的篇目，内容本身值得一听，也方便对照精听。首轮按难度分三级，从语速慢、用词简单的毕业演讲，到修辞密集、录音年代久远的历史演讲，逐级往上走。首轮 16 篇已完成，第二轮新增 5 篇毕业演讲。
 
 ## 书目
 
@@ -52,9 +52,19 @@ keywords:
 | 15 | 2004 Democratic National Convention Keynote | Barack Obama | 2004 | 约 17 分钟 | 美音 | ✅ 已读 | {% post_link 英文演讲/15-奥巴马-2004年民主党大会演讲 '✅ 笔记' %} |
 | 16 | Nobel Peace Prize Lecture | Malala Yousafzai | 2014 | 约 25 分钟 | 南亚口音英语 | ✅ 已读 | {% post_link 英文演讲/16-马拉拉-诺贝尔和平奖演讲 '✅ 笔记' %} |
 
+### 第二轮：毕业演讲精选（待精听）
+
+| # | 演讲 | 讲者 | 年份 | 官方文字稿 | 状态 |
+|---|---|---|---|---|---|
+| 17 | Stanford Commencement Address | Katie Ledecky | 2025 | [Stanford Report](https://news.stanford.edu/stories/2025/06/commencement-address-katie-ledecky) | 📚 待读 |
+| 18 | Harvard Commencement Address | Tom Hanks | 2023 | [Harvard](https://www.harvard.edu/media-relations/2023/05/25/tom-hanks-commencement-speech/) | 📚 待读 |
+| 19 | MIT Commencement Address | Hank Green | 2025 | [MIT News](https://news.mit.edu/2025/commencement-address-hank-green-0529) | 📚 待读 |
+| 20 | Stanford Commencement Address | Melinda French Gates | 2024 | [Stanford Report](https://news.stanford.edu/stories/2024/06/mfg-commencement-address) | 📚 待读 |
+| 21 | Stanford Commencement Address | Issa Rae | 2021 | [Stanford Report](https://news.stanford.edu/stories/2021/06/2021-commencement-address-issa-rae) | 📚 待读 |
+
 ## 每日精听计划
 
-从 2026-10-12 起**每天精听一篇**，共 16 天。每篇笔记节选 15~25 句原文，逐句给出译文、语法与表达、连读弱读等听力提示，并配中英双语讲解音频（中文讲解 + 英文原句朗读）。
+首轮从 2026-10-12 起每天精听一篇，共 16 篇；第二轮计划从 2026-11-10 起再读 5 篇，总计 21 篇。每篇笔记节选 15~25 句原文，逐句给出译文、语法与表达、连读弱读等听力提示，并配中英双语讲解音频（中文讲解 + 英文原句朗读）。
 
 每日安排见 👉 [英文演讲 · 每日一篇精听计划](/reading/booklists/english-speeches/plan/)
 
@@ -80,7 +90,7 @@ keywords:
 
 ## 阅读进度
 
-- 已完成 16 / 16 篇（最新：{% post_link 英文演讲/16-马拉拉-诺贝尔和平奖演讲 '马拉拉 · 诺贝尔和平奖演讲' %}）
+- 已完成 16 / 21 篇（最新：{% post_link 英文演讲/16-马拉拉-诺贝尔和平奖演讲 '马拉拉 · 诺贝尔和平奖演讲' %}）
 
 <!--
 维护约定：由 .claude/skills/pojian-daily 每天 07:00 自动维护。
